@@ -1,0 +1,204 @@
+body{
+    font-family: 'Lato', sans-serif;    
+}
+.nav-text{
+    width: 70%;
+    font-size: 1.6em;
+    padding: 1em 0 .5em 1.6em;
+    letter-spacing: .4em;
+    font-family: 'Quicksand', sans-serif;
+}
+#navbarSupportedContent{
+    padding-left: 15em;
+}
+#navbarSupportedContent a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color: rgb(145, 138, 138);
+    padding: .3em .6em;
+    border: .7px solid rgb(145, 138, 138);
+    border-radius: 6px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+#navbarSupportedContent a:hover{
+  text-decoration: none;
+  background: rgb(145, 138, 138);
+  color: #fff;
+}
+.header-image{
+    min-height: 600px;
+    background-attachment: fixed;
+    width: 100%;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: 50% 50%;
+}
+.header-image-overlay{
+    background-color: rgba(17, 47, 87, 0.801);
+    min-height: 600px;
+    
+}
+.header-text{
+    font-size: 4em;
+    width: 90%;
+    margin: 0 auto;
+    letter-spacing: .4em;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 4em;
+    padding-left: 1.2em;    
+}
+.big-header-text{
+    font-weight: 600;
+    font-size: 3em;
+}
+.header-paragraph-text{
+    text-align: center;
+    padding-top: 2em;
+    line-height: 1.6em;
+    width: 70%;
+    font-size: 1.1em;
+    margin:0 auto;
+    color: rgb(201, 198, 198);
+}
+.header-paragraph-text::before{
+    content: open-quote;
+    font-size: 1.5em;
+}
+.header-paragraph-text::after{
+    content: close-quote;
+    font-size: 1.5em;
+}
+.cite{
+    font-size: 1em;
+    text-align: center;
+    color: rgb(201, 198, 198);
+    margin:0 auto;
+    width: 70%;    
+}
+.cite::before{
+    content: "-- "
+}
+hr{
+    border-top: .5px solid rgb(204, 204, 204);
+    width: 80%;
+}
+.righthand-image{
+    width:90%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 12px solid rgba(224, 221, 221, 0.637);
+}
+.section-two{
+    padding:10% 10% 5% 10%;
+}
+.section-two-text{
+font-size: 2em;  
+color: rgb(148, 148, 148);   
+  
+}
+.bigger-text{
+    font-size: 2em;
+    color: rgba(104, 102, 102, 0.937);
+}
+.details{
+    font-size: .7em;
+    color: rgb(148, 148, 148);   
+}
+.bio{
+    color: rgb(148, 148, 148); 
+    padding-top: 2.5em;  
+    line-height: 1.5em;
+    font-size: 1.1em; 
+    padding-bottom: 3em;   
+    border-bottom: 13px solid rgb(80, 74, 74);
+}
+.section-image{
+    background-image: url(../images/two.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-overlay{
+    background-color: rgba(20, 20, 20, 0.671);
+} 
+.about-worship{
+    font-size: 1.9em;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: .4em;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 4em;
+    padding-left: 1.2em;    
+}
+
+.about{
+    color: #fff;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 5% 10% 2% 10%;
+    font-weight: 300;
+}
+.contribute-worship{
+    font-size: 1.9em;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: .4em;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 1.2em;
+    padding-left: 1.2em;    
+}
+.song-list-header{
+    font-size: 2.6em;
+    text-transform: uppercase;
+    margin-top: 1.6em;
+    margin-bottom: 1.2em;
+    text-align: center;
+    color: rgb(148, 148, 148); 
+    
+}
+
+.social{
+    font-size: 4em;
+    text-align: center;
+    padding: 1em;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    color: rgb(140, 192, 226);
+    /* height: 100%; */
+}
+
+.social:hover{
+    background-color: rgba(126, 124, 124, 0.671);
+    color: #fff;
+}
+.last-header{
+    font-size: 1.4em;
+    line-height: 2em;
+    margin-top: 2em;
+    padding: 4em;
+    color: rgb(187, 215, 233);
+    font-weight: 300;
+}
+.details-two{
+    font-size: 1.4em;
+    text-align: center;
+    padding: 1em 2em 0em 2em;
+    font-weight: 300;    
+    color: rgb(187, 215, 233);
+}
+.footer{
+    line-height: 2.5em;
+}
